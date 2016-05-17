@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM taylorm/php-emacs:1.0
 
 RUN a2enmod rewrite expires
 
